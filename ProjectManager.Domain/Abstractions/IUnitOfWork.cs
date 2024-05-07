@@ -9,7 +9,7 @@ namespace ProjectManager.Domain.Abstractions
 {
     public interface IUnitOfWork
     {
-        IRepository<Project> ProjectRepsitory { get; };
+        IRepository<Project> ProjectRepsitory { get; }
 
         void Save();
     }
